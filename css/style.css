@@ -1,0 +1,182 @@
+/* Style untuk elemen form */
+form {
+display: flex;
+flex-direction: column;
+margin: 20px;
+padding: 20px;
+background-color: #f2f2f2;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="file"],
+select {
+padding: 5px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"],
+button {
+padding: 5px 10px;
+margin-top: 10px;
+margin-right: 10px;
+border: none;
+border-radius: 5px;
+background-color: #4CAF50;
+color: #fff;
+cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+background-color: #3e8e41;
+}
+
+input[type="file"] {
+border: 1px solid #ccc;
+background-color: #fff;
+}
+
+/* Style untuk tabel siswa */
+table {
+border-collapse: collapse;
+margin: 20px;
+}
+
+th,
+td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th {
+background-color: #4CAF50;
+color: white;
+}
+
+td img {
+padding: 5px;
+}
+
+/* Style untuk halaman index.php */
+body {
+margin: 0;
+padding: 0;
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+}
+
+h1 {
+text-align: center;
+padding: 30px 0;
+margin: 0;
+background-color: #008080;
+color: #fff;
+}
+
+table {
+margin: 30px auto;
+border-collapse: collapse;
+width: 80%;
+}
+
+th,
+td {
+padding: 10px;
+text-align: center;
+border: 1px solid #ddd;
+}
+
+th {
+background-color: #008080;
+color: #fff;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+.buttons {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.buttons .button {
+margin: 0 10px;
+}
+
+.button {
+display: inline-block;
+padding: 10px 20px;
+margin: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+color: #fff;
+}
+
+.tambah {
+background-color: #008080;
+}
+
+.ubah {
+background-color: #4CAF50;
+}
+
+.hapus {
+background-color: #f44336;
+}
+
+.button:hover {
+background-color: #ddd;
+color: #000;
+}
+
+/* Style untuk halaman tambah_siswa.php dan ubah_siswa.php */
+.error {
+color: red;
+margin-bottom: 10px;
+}
+
+#form-title {
+margin-top: 20px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+#cancel-button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #bbb;
+  color: #fff;
+  cursor: pointer;
+}
+
+#cancel-button:hover {
+  background-color: #999;
+}
+
+/* Style untuk gambar siswa */
+.siswa-img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
